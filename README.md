@@ -1,11 +1,8 @@
 # San Diego Get It Done Machine Learning Analysis
 
-#### Project Description: 
 The [City of San Diego’s Get It Done application](https://www.sandiego.gov/get-it-done) allows residents to report
 non-emergency issues such as potholes, graffiti, abandoned vehicles, and other problems that
 require city attention. This project applies supervised and unsupervised machine learning to approximately 375,000 closed 2025 service requests from the City of San Diego's Get It Done program.
-
-## Project Question
 
 **Can machine learning predict and classify how long a Get It Done service request will take to resolve based on factors such as request type, location, and submission timing?**
 
