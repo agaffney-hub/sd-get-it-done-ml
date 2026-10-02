@@ -1,0 +1,13 @@
+,dtype,n_unique,missing_sum,is_numeric,is_categorical
+service_request_id,int64,350690,0,True,False
+case_age_days,int64,2437,0,True,False
+date_requested,object,223387,0,False,True
+date_closed,object,365,0,False,True
+case_record_type,object,11,0,False,True
+service_name,object,41,0,False,True
+zipcode,object,66,0,False,True
+council_district,category,10,0,False,True
+comm_plan_code,object,58,0,False,True
+comm_plan_name,object,59,1251,False,True
+case_origin,object,21,71,False,True
+public_description,object,223148,65784,False,True
