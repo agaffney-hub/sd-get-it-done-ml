@@ -40,10 +40,66 @@ The original dataset contains 378,669 records and 23 variables. The raw dataset 
 
 Each model has its own folder containing the relevant notebooks, visualizations, and analysis.
 
-* **EDA** — exploratory analysis and initial findings
-* **Linear Regression** — continuous prediction of resolution time
-* **Logistic Regression** — classification of 30-day resolution
-* **K-Means** — unsupervised clustering of service requests
+<ul>
+  <li>
+    <strong>EDA</strong> — exploratory analysis and initial findings
+<details>
+  <summary><strong>Click here to see EDA analysis images</strong></summary>
+  <table>
+    <tr>
+      <td><img src="EDA/box_plot_case_age_days.png" width="400" alt="Box Plot of Case Age Days"></td>
+      <td><img src="EDA/box_plot_case_type.png" width="400" alt="Box Plot of Case Type"></td>
+    </tr>
+  </table>
+  <img src="EDA/heatmap.png" width="1100" alt="Heatmap">
+</details>
+  </li>
+
+  <li>
+    <strong>Linear Regression</strong> — continuous prediction of resolution time
+<details>
+  <summary><strong>Click here to see Linear Regression analysis images</strong></summary>
+  <table>
+    <tr>
+      <td><img src="Linear_Regression/residuals_vs_predicted.png" width="400" alt="Residuals vs Predicted"></td>
+      <td><img src="Linear_Regression/qq_plot_residuals.png" width="400" alt="Q-Q Plot of Residuals"></td>
+    </tr>
+  </table>
+</details>
+  </li>
+
+  <li>
+    <strong>Logistic Regression</strong> — classification of 30-day resolution
+<details>
+  <summary><strong>Click here to see Logistic Regression analysis images</strong></summary>
+  <table>
+    <tr>
+      <td><img src="Logistic_Regression/f1_score_by_resolution_group.png" width="400" alt="F1 Score by Resolution Group"></td>
+      <td><img src="Logistic_Regression/logistic_regression_confusion_matrix.png" width="400" alt="Confusion Matrix"></td>
+    </tr>
+  </table>
+  <img src="Logistic_Regression/logistic_regression_model_comparison.png" width="1100" alt="Model Comparison">
+  <img src="Logistic_Regression/logistic_regression_model_performance.png" width="1100" alt="Model Performance">
+</details>
+  </li>
+  
+  <li>
+    <strong>K-Means</strong> — unsupervised clustering of service requests
+<details>
+  <summary><strong>Click here to see K-Means analysis images</strong></summary>
+  <img src="K-Means_Clustering/choosing_k_figures.png" width="1100" alt="Choosing K Figures">
+  <table>
+    <tr>
+      <td><img src="K-Means_Clustering/clusters_projected_to_2_components.png" width="400" alt="Clusters Projected to Two Components"></td>
+      <td><img src="K-Means_Clustering/council_district_mix_by_cluster.png" width="400" alt="Council District Mix by Cluster"></td>
+    </tr>
+  </table>
+  <img src="K-Means_Clustering/request_type_mix_by_cluster.png" width="1100" alt="Request Type Mix by Cluster">
+  <img src="K-Means_Clustering/resolution_time_by_cluster.png" width="1100" alt="Resolution Time by Cluster">
+</details>
+  </li>
+</ul>
+
 
 ## Team
 
