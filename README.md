@@ -65,6 +65,13 @@ Each model has its own folder containing the relevant notebooks, visualizations,
       <td><img src="Linear_Regression/qq_plot_residuals.png" width="400" alt="Q-Q Plot of Residuals"></td>
     </tr>
   </table>
+  <img src="Linear_Regression/linear_regression_model_comparison.png" width="1100" alt="Model Performance">
+    <table>
+    <tr>
+      <td><img src="Linear_Regression/linear_regression_r2_comparison.png" width="400" alt="Residuals vs Predicted"></td>
+      <td><img src="Linear_Regression/linear_regression_rmse_comparison.png" width="400" alt="Q-Q Plot of Residuals"></td>
+    </tr>
+  </table>
 </details>
   </li>
 
