@@ -79,6 +79,7 @@ Each model has its own folder containing the relevant notebooks, visualizations,
     <strong>Logistic Regression</strong> — classification of 30-day resolution
 <details>
   <summary><strong>Click here to see Logistic Regression analysis images</strong></summary>
+  <img src="Logistic_Regression/logistic_regression_class_imbalance.png" width="1100" alt="Model Performance">
   <table>
     <tr>
       <td><img src="Logistic_Regression/f1_score_by_resolution_group.png" width="400" alt="F1 Score by Resolution Group"></td>
